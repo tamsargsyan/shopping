@@ -1,0 +1,39 @@
+.popup-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: antiquewhite;
+    border-radius: 30px;
+    position: absolute;
+    position: fixed;
+    width: 60%;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+.close-popup img {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+form input {
+    outline: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+form button {
+    border: none;
+    background-color: forestgreen;
+    border-radius: 7px;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+}
